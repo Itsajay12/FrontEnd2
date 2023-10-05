@@ -1,0 +1,199 @@
+*{
+    margin:0;
+    padding:0;
+   background-color:  rgb(0, 204, 153);
+}
+.container{
+    background-color: white;
+    width:70%;
+    height:100px;
+    margin-left: 240px;
+    margin-top: 50px;
+}
+.header{
+    background-color: rgb(102, 102, 102);
+    width:100%;
+    height: 80px;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 20px;
+}
+.h1{
+    font-size: 2rem;
+}
+.h2{
+    font-weight: bold;
+}
+form{
+    background-color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content:space-around ;
+    padding-left:320px;
+    
+   
+    
+}
+.l1,.l2{
+    background-color: white;
+    font-weight: 200;
+    font-size: 1rem;
+    
+    
+
+}
+.star{
+   background-color:white;
+   color: red;
+   font-weight: bold;
+   
+ 
+}
+.l1:before {
+    display: inline-block;
+    content: "Client name ";
+    padding-top: 25px;
+    padding-left: 15px;
+    
+  }
+  .l2:before {
+    display: inline-block;
+    content: "Company ";
+    padding-top: 15px;
+    padding-left: 15px;
+    
+  }
+  .l3:before {
+    display: inline-block;
+    content: "Title ";
+    padding-top: 15px;
+    padding-left: 15px;
+    
+  }
+  .l4:before {
+    display: inline-block;
+    content: "Department ";
+    padding-top: 15px;
+    padding-left: 15px;
+    
+  }
+  .l5:before {
+    display: inline-block;
+    content: "Prefered contact method ";
+    padding-top: 15px;
+    padding-left: 15px;
+    
+  }
+  .l6:before {
+    display: inline-block;
+    content: "Company Address ";
+    padding-top: 15px;
+    padding-left: 15px;
+    
+  }
+  input{
+    border: none;
+    background-color: white;
+    border-bottom: 2px solid rgb(64, 61, 61);
+
+  }
+  .inp1{
+    width: 50%;
+    margin-left: 150px;
+    border-width: 1px;
+  }
+  .se1{
+    width: 51%;
+    background-color: white;
+    border: none;
+    border-bottom: 2px solid gray;
+    font-weight: bold;
+    font-size: 13px;
+    margin-left: 130px;
+    color:  rgb(0, 204, 153);
+
+  }
+  option{
+    background-color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 13px;
+  }
+  .inps{
+    width: 20%;
+    margin-left: 150px;
+    border-width: 1px;
+  }
+  .file{
+    border-style: dotted;
+    width:40em;
+    height: 40px;
+    margin-left: 150px;
+    
+   
+  }
+
+  #deadline{
+    width: 100%;
+    min-width: 100px;
+    border: none;
+    border-bottom: 2px solid grey;
+    height: 100%;
+    background: none;
+    outline: none;
+    padding-inline: 5px;
+    resize: none;
+    border-right: 2px solid #dde2f1;
+    cursor: pointer;
+    color: #9fa3b1;
+    text-align: center;
+  }
+  
+  input[type="date"]::-webkit-calendar-picker-indicator {
+    cursor: pointer;
+    border-radius: 4px;
+    margin-right: 2px;
+    filter: invert(0.8) sepia(100%) saturate(10000%) hue-rotate(240deg);
+  }  
+
+  .bt1{
+    width:20%;
+    height:40px;
+    border-radius: 12px;
+    color: white;
+   margin-left: 220px;
+   margin-top: 40px;
+   border: none;
+   cursor: pointer;
+   font-weight: bold;
+   animation-name: example;
+   animation-duration: 4s;
+   animation-iteration-count: infinite;
+  }
+  @keyframes example {
+    0%   {background-color:red; left:0px; top:0px;}
+    25%  {background-color:yellow; left:200px; top:0px;}
+    50%  {background-color:blue; left:200px; top:200px;}
+    75%  {background-color:green; left:0px; top:200px;}
+    100% {background-color:red; left:0px; top:0px;}
+  }
+  .div2 {
+    width: 100px;
+    height: 100px;
+    z-index: 1;
+    position: relative;
+    animation: myfirst 5s linear 2s infinite alternate;
+  }
+  
+  @keyframes myfirst {
+    0%   {background-color:rgb(220, 213, 213); left:0px; top:0px;}
+    25%  {background-color:yellow; left:100px; top:0px;}
+    50%  {background-color:blue; left:100px; top:100px;}
+    75%  {background-color:green; left:0px; top:100px;}
+    100% {background-color:red; left:0px; top:0px;}
+  }

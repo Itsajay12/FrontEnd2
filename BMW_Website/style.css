@@ -1,0 +1,240 @@
+@import url('https://fonts.googleapis.com/css2?family=Assistant&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=M+PLUS+Rounded+1c:wght@500&family=Montserrat&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+    
+.start{
+    background-image: url(https://bmw.scene7.com/is/image/BMW/bmw_neue-klasse_vision_dsk_fb:16to7?fmt=webp&wid=1504&hei=656);
+background-repeat: no-repeat;
+width: 100%;
+height: 700px;
+object-fit: cover;
+background-size: cover;
+background-position: center;
+margin: 0px;
+
+
+}
+.logo{
+    padding-left: 40px;
+    padding-top: 20px;
+}
+a{
+    font-family: 'Assistant', sans-serif;
+    color: aliceblue;
+    font-weight: bolder;
+    font-size: 20px;
+    text-decoration: none;
+    padding-left: 20px;
+    cursor: pointer;
+   
+   
+  
+}
+
+.i1{
+    position: absolute;
+    top:45px;
+    right: 150px;
+}
+.h3{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 100;
+    font-size: 14px;
+    padding-left: 15px;
+}
+.maincont{
+    display: flex;
+    flex-direction: column;
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+   
+}
+.c1{
+    font-size: 15px;
+    position: relative;
+    left: 120px;
+    top:20px;
+    
+}
+.c2{
+    font-size: 55px;
+    position: relative;
+    left: 80px;
+    top:20px;
+    font-weight: 100;
+    
+}
+.c3{
+    font-size: 15px;
+    position: relative;
+    left: 80px;
+    top:20px;
+    font-weight: 100;
+    
+}
+.but1,.but2{
+    background-color:rgb(102, 140, 255);
+    color: white;
+    width: 150px;
+    height: 60px;
+    border-radius: 5px;
+    font-weight: bold;
+    font-family: 'Montserrat', sans-serif;
+   margin-left: 90px;
+   margin-top: 60px;
+   border: none;
+   cursor: pointer;
+}
+.nav2{
+    color: rgb(56, 54, 54);
+    display: flex;
+    flex-direction: row;
+    font-family: 'Montserrat', sans-serif;
+    position: sticky;
+
+
+}
+.sub1,.sub2,.sub3{
+    margin-top: 30px;
+    margin-left: 15px;
+    font-weight: 600;
+}
+.but2{
+    margin-top: 10px;
+    margin-left: 1200px;
+    height:50px
+}
+.tit1{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    font-size: 30px;
+    padding-left: 100px;
+   padding-top: 100px;
+   text-align: center;
+
+}
+.mc2{
+    display: flex;
+    flex-direction: column;
+}
+.vid{
+    padding-left: 180px;
+    height: 800px;
+    width: fit-content;
+}
+.mid{
+    color: rgb(38, 38, 38);
+    padding-top: 50px;
+}
+.tit1-m{
+    font-family: sans-serif;
+    font-weight: 200;
+    font-size: 40px;
+    text-align: center;
+    margin-left: 412px;
+
+
+}
+.img{
+    display: flex;
+    flex-direction: row;
+    padding-left: 120px;
+}
+.img1{
+    padding-left: 120px;
+    padding-top: 40px; 
+}
+.con1{
+    color: #262626;
+    word-spacing: 5px;
+
+}
+.con1-tit1{
+    font-family: 'M PLUS Rounded 1c', sans-serif;
+    font-weight: 400;
+ font-size: 20px;
+   
+
+}
+.con1-con{
+    font-family: 'Exo', sans-serif;
+font-family: 'M PLUS Rounded 1c', sans-serif;
+font-family: 'Montserrat', sans-serif;
+font-weight: 200;
+margin-top: 30px;
+}
+.con1-1{
+    width: 400px;
+padding-left: 250px;
+
+}
+.con1-2{
+    width: 400px;
+    position: absolute;
+    left: 800px;
+    top:2150px
+}
+.con1-3{
+    width: 400px;
+    position: absolute;
+    left: 1400px;
+    top:2150px
+}
+.bottom{
+    margin-top: 150px;
+    color: #666;
+
+}
+.bt-img1{
+    padding-left: 60px;
+}
+.bt-tit1{
+font-weight: bold;
+font-size: 20px;
+}
+.bt-tit2{
+    font-size: 40px;
+}
+.bt-tit3{
+    font-size: 30px;
+}
+.bt-ct1{
+    position: absolute;
+    left:1100px;
+    top:2500px;
+    word-spacing: 5px;
+}
+.bt-img2-1{
+    margin-top: 70px;
+    padding-left: 950px;
+}
+.bt-ct2{
+    position: absolute;
+    top:3200px;
+    width: 50%;
+}
+.bt-ct3{
+    position: absolute;
+    left:1100px;
+    top:3900px;
+    word-spacing: 5px;
+}
+.bt-ct4{
+    position: absolute;
+    top:4500px;
+    width: 50%;
+}
+.bt-ct5{
+    position: absolute;
+    left:1100px;
+    top:5100px;
+    word-spacing: 5px;
+}

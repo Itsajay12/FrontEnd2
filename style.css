@@ -1,0 +1,11 @@
+
+.f1{
+    font-family:'Courier New';
+    font-style: oblique;
+    font-weight: 100;
+   
+}
+.imae{
+    background:url("images/porche.webp")#00d no-repeat fixed;
+    background-color: aqua;
+}

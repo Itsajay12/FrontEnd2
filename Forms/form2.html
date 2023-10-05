@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style2.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    
+    <title>REgister</title>
+</head>
+
+<body>
+    
+    <div class="container">
+        <div class="header">
+            <span class="h1" style="background-color: rgb(102, 102, 102);">Client Details</span>
+            <span class="h2" style="background-color: rgb(102, 102, 102);">Enter the details of incomming clients</span>
+        </div>
+        <form method="post" action="?">
+            <label class="l1"> <span class="star">*</span></label>
+
+            <input type="text" class="inp1">
+            <br>
+            <label class="l2"> <span class="star">*</span></label>
+
+            <input type="text" class="inp1">
+            <br>
+            <label class="l3" style="background-color: white;"> <span class="star">*</span></label>
+
+            <input type="text" class="inp1">
+            <br>
+            <label class="l4" style="background-color: white;"> <span class="star">*</span></label>
+            <select class="se1">
+                <option value="select" selected>select</option>
+                <option value="select">Mechanical</option>
+                <option value="select">Electrical</option>
+            </select>
+            <br>
+            <label class="l5" style="background-color: white;">
+                <span class="star">*</span>
+                <input type="radio" style="margin-left: 100px;" name="contact">E-mail
+                <input type="radio" name="contact">Phone
+            </label>
+            <br>
+            <label class="l6" style="background-color: white;"> <span class="star">*</span></label>
+
+            <span class="div1" style="background-color: white;">
+                <input type="text" class="inp1">
+                <br>
+                <span style="color: gray;background-color: white;margin-left: 150px;font-weight: bold;">Street
+                    Address</span>
+            </span>
+
+            <span class="div1" style="background-color: white;margin-top: 10px;">
+                <input type="text" class="inp1">
+                <br>
+                <span style="color: gray;background-color: white;margin-left: 150px;font-weight: bold; "> Address
+                    Line2</span>
+            </span>
+            <span class="div1" style="background-color: white;margin-top: 10px;display: flex;">
+                <input type="text" class="inps">
+
+                <br>
+                <input type="text" class="inps">
+
+            </span>
+            <br>
+            <span class="div1" style="background-color: white;display: flex;">
+                <span style="color: gray;background-color: white;margin-left: 150px;font-weight: bold; "> City</span>
+
+
+                <br>
+                <span style="color: gray;background-color: white;margin-left: 320px;font-weight: bold; ">
+                    State/Region/Province</span>
+
+            </span>
+            <span class="div1" style="background-color: white;margin-top: 10px;display: flex;">
+                <input type="text" class="inps">
+
+                <br>
+                <select class="se1" style="width: 15em;margin-left: 150px;color: grey;">
+                    <option value="select" selected>select</option>
+                    <option value="select">Mechanical</option>
+                    <option value="select">Electrical</option>
+                </select>
+
+            </span>
+
+            <span class="div1" style="background-color: white;display: flex;">
+                <span style="color: gray;background-color: white;margin-left: 150px;font-weight: bold; "> Postal/Zip
+                    Code</span>
+
+
+                <br>
+                <span style="color: gray;background-color: white;margin-left: 230px;font-weight: bold;">
+                    Country</span>
+
+            </span>
+            <br>
+            <label class="l" style="background-color: white;">Company Website <span class="star">*</span></label>
+            <input type="text" class="inp1">
+            <label class="l" style="background-color: white;">Company logo <span class="star">*</span></label>
+            
+            <i class="fa-solid fa-arrow-up-from-bracket" style="background-color: white;"><input type="file"   class="file"></i>
+            <label class="l" style="background-color: white;">Working Hours <span class="star">*</span></label>
+
+            <input type="text" class="inp1">
+            <label class="l" style="background-color: white;">Working Days <span class="star">*</span></label>
+
+           
+            <input type="text" class="inp1">
+            <label class="l" style="background-color: white;">Billing Cycle <span class="star">*</span></label>
+
+            <input type="date" id="deadline" style="width:20em" class="inp1">
+            <label class="l" style="background-color: white;">Additional Information</label>
+
+            <input type="text" class="inp1">
+            
+            <button class="bt1">Submit</button>
+        
+        </form>
+
+    </div>
+    </div>
+
+</body>
+
+</html>

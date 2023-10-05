@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Caveat&family=Exo:ital,wght@1,100&family=M+PLUS+Rounded+1c:wght@100;500&family=Montserrat&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Caveat&family=Exo:ital,wght@1,100&family=M+PLUS+Rounded+1c:wght@100;500&family=Montserrat&family=Play&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+
+}
+form{
+   background-color: rgb(173, 242, 242); 
+   width: 70%;
+   position: absolute;
+   left:340px;
+   top:10px;
+   border-radius: 10px;
+   display: inline-block;
+   margin-top: 40px;
+   /* flex-direction: column;
+   flex-wrap: wrap;
+   justify-content: center; */
+   background-image: url(https://img-prod-cms-rt-microsoft-com.akamaized.net/cms/api/am/imageFileData/RE4wwtz?ver=e92c);
+
+}
+h3{
+    text-align: center;
+    font-family: 'Montserrat', sans-serif; 
+    border-bottom: 2px solid yellow;
+}
+.label1{
+    font-family: 'Caveat', cursive;
+    font-size: 25px;
+    padding-left: 300px;
+    color:rgb(227, 227, 227);
+    margin-right: 20px;
+
+  
+
+}
+input{
+    font-size: 20px;
+    border-radius: 10px;
+    text-align: center;
+    background-color: rgb(222, 227, 218);
+    border-color: aliceblue;
+    width: 50%;
+    height: 50px;
+    margin-top: 20px;
+   
+   
+}
+textarea{
+    font-size: 20px;
+    border-radius: 10px;
+    text-align: center;
+    width: 50%;
+    padding-top: 20px;
+    background-color: rgb(230, 216, 206);
+    color: aliceblue;
+    border-color: aliceblue;
+    margin-top: 20px;
+    height: 50px;
+
+}
+.rb{
+    width: 20px;
+    font-family:  Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    color: aliceblue;
+}
+.cb{
+    width: 20px;
+    position: relative;
+    left: 340px;
+}
+.cb-c{
+    position: relative;
+    left: 390px;
+    bottom: 39px;
+}
+.tk-nt{
+    color: rgb(32, 103, 164);
+    font-size: 40px;
+   padding-left: 340px;
+   font-weight: bold;
+
+  
+}
+.bt{
+    margin-left: 270px;
+    background-color: color-mix(in srgb, red 20%, green 70%);
+}
+.bt:hover{
+    background-color: darkorchid;
+
+}
+.container{
+    padding-left: 10px;
+    justify-content: center;
+}
