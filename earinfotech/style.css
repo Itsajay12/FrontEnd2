@@ -1,4 +1,19 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Inter", sans-serif;
+}
 body{
     margin: 0;
     padding: 0;
+}
+
+.header {
+    padding: 2rem 1.25rem;
+   width: 1400px;
+   height: 101px;
+   padding-left: 12rem;
+   
+  
 }
