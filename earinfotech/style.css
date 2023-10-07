@@ -4,42 +4,50 @@
     box-sizing: border-box;
     font-family: "Inter", sans-serif;
 }
-body{
+
+body {
     margin: 0;
     padding: 0;
 }
 
 .header {
     padding: 2rem 1.25rem;
-   width: 1400px;
-   height: 101px;
-   padding-left: 12rem;
-   
-  
+    width: 1400px;
+    height: 101px;
+    padding-left: 12rem;
+
+
 }
-.nav-link{
+
+.nav-link {
     color: black;
 }
-.nav-link:hover{
+
+.nav-link:hover {
     color: orange;
 }
-p{
-      color: hsl(236, 13%, 42%);
+
+p {
+    color: hsl(236, 13%, 42%);
 }
-span{
-   
-        color: hsl(236, 13%, 42%);
-        font-weight: bold;
-        font-size: 2rem;
-        opacity: 75%;
-    
+
+span {
+
+    color: hsl(236, 13%, 42%);
+    font-weight: bold;
+    font-size: 2rem;
+    opacity: 75%;
+
 }
-h3:hover{
+
+h3:hover {
     color: orange;
 }
-.btn{
+
+.btn {
     background-color: rgb(215, 78, 78);
 }
-button:hover{
-     background-color: hsl(240, 100%, 5%);
+
+button:hover {
+    background-color: hsl(240, 100%, 5%);
 }
