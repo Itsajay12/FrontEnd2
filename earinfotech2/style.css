@@ -1,3 +1,4 @@
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css");
 .div1 {
     overflow: hidden;
     position: relative;
@@ -22,5 +23,35 @@
 }
 .img{
     border: 15px solid white;
-    transform: rotate(-20deg);
+    transform: rotate(-10deg);
+    display: block;
+
 }
+.btn2{
+    background-color: rgb(71, 255, 47);
+    color: white;
+    
+   
+}
+.btn2:hover{
+    background-color: rgb(71, 255, 47);
+    color: white;
+   
+    animation-name: example;
+    animation-duration: 4s;
+}
+@keyframes example {
+    from {background-color: rgb(71, 255, 47);}
+    to { border-radius: 2px solid red;}
+  }
+  .div2{
+    background-color: black;
+  }
+  .white{
+    height: 70px;
+    width: 70px;
+    border-radius: 50%;
+    background-color: white;
+  }
+  
+ 
