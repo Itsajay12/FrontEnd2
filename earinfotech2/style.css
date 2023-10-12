@@ -52,6 +52,26 @@
     width: 70px;
     border-radius: 50%;
     background-color: white;
+  position: relative;
+  left: 130px;
   }
-  
- 
+  .div3{
+    background-color: #F9FAFA;
+  }
+  .se-h{
+    padding-top: 150px;
+    padding-left: 50px;
+    font-weight: 100;
+    
+  }
+  .div5{
+    background-color:  #F9FAFA;
+  }
+  .plan {
+    text-align: center;
+    max-width: 390px;
+    margin: auto;
+    height: 330px;
+    padding: 36px 15px 45px;
+    position: relative;
+  }
